@@ -13,7 +13,7 @@ so that I can see my profile.
 */
 
 //.only() - run only this test block // .skip() - skip this specific test
-describe.only('Login to Luma Demostore', () => {
+describe('Login to Luma Demostore', () => {
     context('I click on Login and enter my credentials', () => {
         it('I should be logged in and see my profile', async () =>{
             // Start web browser
